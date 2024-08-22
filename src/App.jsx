@@ -39,10 +39,6 @@ function App() {
       element: user ? <Navigate to="/" /> : <Register />,
     },
   ]);
-  
-  useEffect(() => {
-      dispatch(checkUser())
-  }, [])
 
   return <RouterProvider router={routes} />;
 }
