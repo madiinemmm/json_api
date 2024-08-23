@@ -13,7 +13,7 @@ import { useEffect } from "react";
 import { checkUser } from "./features/userSlice";
 
 function App() {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const { user } = useSelector((state) => state.user);
   const routes = createBrowserRouter([
     {
