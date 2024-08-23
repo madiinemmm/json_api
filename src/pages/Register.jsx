@@ -27,7 +27,7 @@ function Register() {
 
   return (
     <div className="flex min-h-screen">
-      <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ backgroundImage: "url('./public/register.jpg')" }}></div>
+      <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ backgroundImage: "url('./register.jpg')" }}></div>
       
       <div className="w-full md:w-1/2 flex items-center justify-center bg-blue-50">
         <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
